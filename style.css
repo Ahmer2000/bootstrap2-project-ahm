@@ -59,4 +59,7 @@
 body{
     background-color:#041734f2;   
 }
+.navItem:hover{
+    color:rgb(12, 186, 225);
+}
 
