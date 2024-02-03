@@ -1,0 +1,62 @@
+@media (min-width:768px){
+    .news-input{
+        width: 50%;
+    }
+}
+.btnN{
+    background-color: rgb(12, 186, 225);
+}
+.btnN:hover{
+    background-color: #040d1af2;   
+}
+@media (min-width:576px){
+    .imgL{
+        width: 60%;
+    }
+}
+@media (min-width:992px){
+    .Line{
+        border-bottom: 1px solid rgb(12, 186, 225);
+    }
+}
+.b-color{
+    background-color:#041734f2;
+}
+.navFix{
+    position: relative;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    height: 60px;
+    font-size: larger;
+    background-color: #040d1af2;
+}
+.bgCard{
+    background-color: #040d1af2; 
+}
+/* to add ghost element below navbar so that there's space between the navbar anc the below showcase element */
+/* body::before{
+    display: block;
+    content: '';
+    height: 72px;
+    background-color: #040d1af2;
+} */
+.accordion{
+    transition: none;
+    box-shadow: none;
+    --bs-accordion-btn-focus-box-shadow:none;
+    border-collapse: collapse;
+    border-style: none;
+    --bs-accordion-border-color: #000000;
+  }
+  .accordion-button::after{
+    filter: invert(1);
+    
+}
+
+body{
+    background-color:#041734f2;   
+}
+
