@@ -22,7 +22,7 @@
 .b-color{
     background-color:#041734f2;
 }
-.navFix{
+/* .navFix{
     position: relative;
     position: sticky;
     top: 0;
@@ -31,18 +31,17 @@
     z-index: 3;
     height: 60px;
     font-size: larger;
-    background-color: #040d1af2;
-}
+} */
 .bgCard{
     background-color: #040d1af2; 
 }
 /* to add ghost element below navbar so that there's space between the navbar anc the below showcase element */
-/* body::before{
+body::before{
     display: block;
     content: '';
     height: 72px;
     background-color: #040d1af2;
-} */
+}
 .accordion{
     transition: none;
     box-shadow: none;
@@ -62,4 +61,5 @@ body{
 .navItem:hover{
     color:rgb(12, 186, 225);
 }
+
 
